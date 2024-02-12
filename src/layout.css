@@ -1,0 +1,53 @@
+:root{
+  width: 1280px;
+  height: 812px;
+  top: -201px;
+  left: 1607px;
+  padding: 32px, 0px, 32px, 0px;
+
+  background-color: #f2f2f2;
+}
+
+div{
+  width: 375px;
+  height: 748px;
+  padding: 0px, 16px, 0px, 16px;
+  gap: 16px;
+}
+
+h1{
+  width: 343px;
+  height: 38px;
+  color: #333333;  
+}
+
+form{
+  width: 343px;
+  height: 173px;
+  padding: 16px;
+  gap: 8px;
+}
+
+textarea{
+  width: 343px;
+  height: 173px;
+  border-radius: 2px;
+  gap: 4px;
+}
+
+
+button {
+  width: 343px;
+  height: 45px;
+  border-radius: 16px;
+  padding: 8px, 16px, 8px, 16px;
+  background-color: #4f4f4f;
+  border: none;
+  box-sizing: content-box;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
