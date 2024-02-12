@@ -1,3 +1,6 @@
+# WebNotes_React
+In this brief development, we will use React to create a simple note-taking application. This application will allow the user to create, view, edit, and delete notes. To achieve this, we will utilize programming tools that provide structure and design in the application. These include **HTML**, **CSS**, and **JavaScript** within the React template.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
