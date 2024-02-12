@@ -1,7 +1,15 @@
 :root{
   text-align: center;
   margin: 0 auto;
+  font-family: "Roboto", sans-serif;
 }
+
+div{
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
 h1{
   font-family: 'Robot',sans-serif;
   font-weight: 700;
@@ -12,11 +20,10 @@ h1{
   margin: 0 auto;
 }
 
-form{
+.form1{
   border-radius: 16px;
   border: 2px solid black;
   background-color: #FFFFFF;
-  
   margin: 0 auto;
 }
 
@@ -29,7 +36,11 @@ textarea{
   outline: none;  
 }
 
-button{
-  text-align: center;
+.form2{
+  border-radius: 16px;
+  border: 2px solid black;
+  background-color: #FFFFFF;
+  margin: 8 auto;
 }
+
 

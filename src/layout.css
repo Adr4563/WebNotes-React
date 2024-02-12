@@ -22,21 +22,26 @@ h1{
 }
 
 form{
+  margin: 8px;
+  text-align: center;
+}
+
+.form1{
   width: 343px;
   height: 173px;
   padding: 16px;
-  gap: 8px;
+  gap: 16px;
+  margin: 8;
 }
 
 textarea{
   width: 343px;
   height: 173px;
   border-radius: 2px;
-  gap: 4px;
 }
 
 
-button {
+.button1 {
   width: 343px;
   height: 45px;
   border-radius: 16px;
@@ -51,3 +56,30 @@ button {
   color: #FFFFFF;
 }
 
+
+.button2 {
+  width: 83px;
+  height: 30px; 
+  padding:  4px 16px;
+  border-radius: 16px;
+  border: none;
+  background-color: #E0E0E0;
+  color: rgb(59, 59, 59);
+  
+  position: absolute;
+  bottom: 16px; 
+  right: 16px; 
+}
+
+.form2{
+  
+    width: 343px;
+    height: 173px;
+    padding: 16px;
+    gap: 16px;
+    margin: 8px auto; /* Agregado auto para centrar horizontalmente el formulario */
+    text-align: center; /* Alineación del texto centrada */
+    position: relative; /* Añadida posición relativa al formulario */
+
+
+}
