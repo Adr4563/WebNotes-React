@@ -3,15 +3,22 @@ import './App.css';
 
 function App() {
   const [notes, setNotes] = useState([]);
+  
+  // 1. Create Note
+  const createNote = (event) => {
+    event.preventDefault();
+    const newNote = event.target.elements.miTextarea.value.trim();
 
-  const crearNota = () => {
-    const newNote = document.getElementById('miTextarea').value;
-    console.log(newNote);
+    if (newNote === "") {
+      return;
+    }
+
     setNotes([...notes, newNote]);
-    document.getElementById('miTextarea').value = '';
+    event.target.reset();
   };
 
-  const eliminarNota = (index) => {
+  // 2. Delete Note
+  const deleteNote = (index) => {
     const nuevasNotas = notes.filter((_, i) => i !== index);
     setNotes(nuevasNotas);
   };
@@ -19,21 +26,23 @@ function App() {
   return (
     <>
       <div>
-        <br />
-        <h1>Mis Notas</h1>
-        <br />
-        <form className='form1'>
-          <textarea id="miTextarea" placeholder="Algo para recordar..."></textarea>
+
+        <br/>
+          <h1>Mis Notas</h1>
+        <br/>
+
+        <form onSubmit={createNote}>
+          <textarea id="miTextarea" name="miTextarea" placeholder="Algo para recordar..."></textarea>
+          <button className="button1" type='submit'>Crear</button>
         </form>
-        <form>
-          <button className = "button1" type='button' onClick={crearNota}>Crear</button>
-        </form >
+        
         {notes.map((nota, index) => (
-          <div className='form2'>
-            <textarea id="miTextarea" key={index}>{nota}</textarea>
-            <button className="button2"  onClick={() => eliminarNota(index)}>Borrar</button>
+          <div className='form2' key={index}>
+            <textarea readOnly value={nota}></textarea>
+            <button className="button2" onClick={() => deleteNote(index)}>Borrar</button>
           </div>
         ))}
+
       </div>
     </>
   );

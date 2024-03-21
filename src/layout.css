@@ -1,63 +1,85 @@
 :root{
-  width: 1280px;
-  height: 812px;
-  top: -201px;
-  left: 1607px;
-  padding: 32px, 0px, 32px, 0px;
+  /*Adjusting the Position*/
+  text-align: center;
+  margin: 0 auto;
 
+  /*Web page Style*/
   background-color: #f2f2f2;
 }
 
 div{
-  width: 375px;
-  height: 748px;
-  padding: 0px, 16px, 0px, 16px;
-  gap: 16px;
+  /*Adjusting the Position*/
+  margin: 0 auto;
+
+  /*Text Style*/
+  font-family: "Roboto", sans-serif;
+
 }
 
 h1{
-  width: 343px;
-  height: 38px;
+  /*Text Style*/
+  font-family: 'Robot',sans-serif;
   color: #333333;  
+  
+  text-align: center;
+  margin: 0 auto;
+
 }
 
 form{
-  margin: 8px;
   text-align: center;
-}
+  
+  /*Form Style*/
+  border-radius: 16px;
+  border: 2px solid black;
+  background-color: #FFFFFF;
+  margin: 0 auto;
 
-.form1{
   width: 343px;
   height: 173px;
   padding: 16px;
+  padding: 16px;
   gap: 16px;
-  margin: 8;
 }
 
 textarea{
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #4f4f4f;
+
+  border: white;
+  outline: none;  
+
   width: 343px;
   height: 173px;
-  border-radius: 2px;
 }
 
 
 .button1 {
+  /*Button Style */
   width: 343px;
   height: 45px;
   border-radius: 16px;
-  padding: 8px, 16px, 8px, 16px;
   background-color: #4f4f4f;
   border: none;
   box-sizing: content-box;
 
+  /*Adjusting the position*/
+  position: relative;
+  top: -50px; 
+  margin: 0 auto;
+  right: 4px;
+  
+  /*Text Style*/
   font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 25px;
+  line-height: 20px;
   color: #FFFFFF;
 }
 
 
 .button2 {
+  /*Button Style */
   width: 83px;
   height: 30px; 
   padding:  4px 16px;
@@ -65,21 +87,31 @@ textarea{
   border: none;
   background-color: #E0E0E0;
   color: rgb(59, 59, 59);
-  
+
+  /*Adjusting the position*/
   position: absolute;
-  bottom: 16px; 
-  right: 16px; 
+  bottom: 10px;  
+  right: 10px; 
+
+  /*Text Style*/
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 20px;
+  color: #333333;
 }
 
 .form2{
+  /*Form-2 Style */
+  border-radius: 16px;
+  border: 2px solid black;
+  background-color: #FFFFFF;
+  margin: 8 auto;
   
-    width: 343px;
-    height: 173px;
-    padding: 16px;
-    gap: 16px;
-    margin: 8px auto; /* Agregado auto para centrar horizontalmente el formulario */
-    text-align: center; /* Alineación del texto centrada */
-    position: relative; /* Añadida posición relativa al formulario */
-
-
+  width: 343px;
+  height: 173px;
+  padding: 16px;
+  gap: 16px;
+  margin: 8px auto; 
+  text-align: center; 
+  position: relative;
 }
