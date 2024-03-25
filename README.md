@@ -7,7 +7,7 @@ npm install vite --save-dev
 # or
 yarn add vite --dev
 ```
-This website needs to install Node.js, other execution environments that require it.
+This website needs to install [Node.js](https://nodejs.org/en), other execution environments that require it.
 
 # WebNotes_React
 In this brief development, a simple note taking application has been created. This application will allow the user to create, view, edit, and delete notes. To achieve this, we will utilize programming tools that provide structure and design in the application. These include **HTML**, **CSS**, and **JavaScript** within the React template. 
