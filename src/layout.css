@@ -4,7 +4,7 @@
   margin: 0 auto;
 
   /*Web page Style*/
-  background-color: #f2f2f2;
+  background-color: black;
 }
 
 div{
@@ -19,7 +19,7 @@ div{
 h1{
   /*Text Style*/
   font-family: 'Robot',sans-serif;
-  color: #333333;  
+  color: #ffffff;  
   
   text-align: center;
   margin: 0 auto;
@@ -31,7 +31,7 @@ form{
   
   /*Form Style*/
   border-radius: 16px;
-  border: 2px solid black;
+  border: 2px solid rgb(255, 255, 255);
   background-color: #FFFFFF;
   margin: 0 auto;
 
@@ -45,9 +45,9 @@ form{
 textarea{
   font-family: "Roboto", sans-serif;
   font-size: 24px;
-  color: #4f4f4f;
+  color: #000000;
 
-  border: white;
+  border: rgb(255, 255, 255);
   outline: none;  
 
   width: 343px;
@@ -60,7 +60,7 @@ textarea{
   width: 343px;
   height: 45px;
   border-radius: 16px;
-  background-color: #4f4f4f;
+  background-color: #000000;
   border: none;
   box-sizing: content-box;
 
@@ -74,7 +74,7 @@ textarea{
   font-weight: 700;
   font-size: 25px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 
@@ -85,7 +85,7 @@ textarea{
   padding:  4px 16px;
   border-radius: 16px;
   border: none;
-  background-color: #E0E0E0;
+  background-color: #000000;
   color: rgb(59, 59, 59);
 
   /*Adjusting the position*/
@@ -97,7 +97,7 @@ textarea{
   font-weight: 800;
   font-size: 15px;
   line-height: 20px;
-  color: #333333;
+  color: #ffffff;
 }
 
 .form2{

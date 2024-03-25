@@ -28,18 +28,18 @@ function App() {
       <div>
 
         <br/>
-          <h1>Mis Notas</h1>
+          <h1>My Notes</h1>
         <br/>
 
         <form onSubmit={createNote}>
-          <textarea id="miTextarea" name="miTextarea" placeholder="Algo para recordar..."></textarea>
-          <button className="button1" type='submit'>Crear</button>
+          <textarea id="miTextarea" name="miTextarea" placeholder="Something to remember..."></textarea>
+          <button className="button1" type='submit'>Create</button>
         </form>
         
         {notes.map((nota, index) => (
           <div className='form2' key={index}>
             <textarea readOnly value={nota}></textarea>
-            <button className="button2" onClick={() => deleteNote(index)}>Borrar</button>
+            <button className="button2" onClick={() => deleteNote(index)}>Delete</button>
           </div>
         ))}
 
